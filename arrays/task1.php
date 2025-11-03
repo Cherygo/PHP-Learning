@@ -8,4 +8,4 @@ function lastElement(array $arr) : string
     return $element;
 }
 
-printf(lastElement([1,2,3,4,5,6,7,8,10]));
+print_r(lastElement([1,2,3,4,5,6,7,8,10]));

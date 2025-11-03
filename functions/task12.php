@@ -20,4 +20,4 @@ function societyName(array $arr) : string
     return $name;
 }
 
-printf(societyName(["Nate", "Zack", "Simon"]));
+print_r(societyName(["Nate", "Zack", "Simon"]));

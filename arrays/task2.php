@@ -7,4 +7,4 @@ function firstElement(array $arr) : string {
     return $element;
 }
 
-printf(firstElement([1,23,4,5,2,52,6,5,234,324,234,324,13,0]));
+print_r(firstElement([1,23,4,5,2,52,6,5,234,324,234,324,13,0]));
