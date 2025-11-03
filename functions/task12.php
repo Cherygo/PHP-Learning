@@ -1,0 +1,23 @@
+<?php
+
+// Task 12
+// A group of friends have decided to start a secret society. The name will be the first letter of each of their
+// names, sorted in alphabetical order.
+// Create a function that takes in an array of names and returns the name of the secret society.
+
+// Example
+// societyName(["Nate", "Zack", "Simon"]) - "NSZ"
+// societyName(["Stefan", "Emo", "Alek"]) - "AES"
+
+function societyName(array $arr) : string
+{
+    $tempArr = $arr;
+    sort($tempArr);
+    $name = "";
+    foreach ($tempArr as $letter) {
+        $name .= $letter[0];
+    }
+    return $name;
+}
+
+printf(societyName(["Nate", "Zack", "Simon"]));
